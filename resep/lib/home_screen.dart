@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'menu1_screen.dart';
+import 'soto.dart';
+import 'surabi.dart';
 // import 'menu2_screen.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -10,7 +12,7 @@ class HomeScreen extends StatelessWidget {
         color: Colors.teal,
         alignment: Alignment.center,
         child: Column(
-          mainAxisAlignment: MainAxisAlignment.center, 
+          mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Container(
               width: 300,

@@ -1,4 +1,8 @@
 import 'package:flutter/material.dart';
+import 'soto.dart';
+import 'surabi.dart';
+import 'nasi.dart';
+import 'sate.dart';
 import 'menu2_screen.dart';
 
 class MenuScreen1 extends StatelessWidget {
@@ -64,7 +68,7 @@ class MenuScreen1 extends StatelessWidget {
                                 Navigator.push(
                                     context,
                                     MaterialPageRoute(
-                                      builder: (context) => MenuScreen2(),
+                                      builder: (context) => Soto(),
                                     ));
                               }),
                         ),
@@ -128,7 +132,7 @@ class MenuScreen1 extends StatelessWidget {
                                 Navigator.push(
                                     context,
                                     MaterialPageRoute(
-                                      builder: (context) => MenuScreen2(),
+                                      builder: (context) => Surabi(),
                                     ));
                               }),
                         ),
@@ -204,7 +208,7 @@ class MenuScreen1 extends StatelessWidget {
                                 Navigator.push(
                                     context,
                                     MaterialPageRoute(
-                                      builder: (context) => MenuScreen2(),
+                                      builder: (context) => Nasi(),
                                     ));
                               }),
                         ),
@@ -268,7 +272,7 @@ class MenuScreen1 extends StatelessWidget {
                                 Navigator.push(
                                     context,
                                     MaterialPageRoute(
-                                      builder: (context) => MenuScreen2(),
+                                      builder: (context) => Sate(),
                                     ));
                               }),
                         ),
